@@ -28,7 +28,7 @@ div.scrollmenu a:hover {
     text-align:center;
     color:#fff;
     margin-top: 0px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     margin-bottom: 5px;
 }
@@ -43,10 +43,11 @@ div.scrollmenu a:hover {
 .cm-footer {
     background: #ffffff;
     color: #fff;
-    line-height: 25px;
+    line-height: 16px;
     border-top: 1px solid #d8d8d8;
     position: fixed;
-    bottom: 0px;
+    bottom: 0px !important;
+    height: 60px;
 }
 
 #cm-menu-content{
@@ -84,7 +85,8 @@ padding: 14px 8px 14px 8px;
     
 }
 .scrollmenu i{
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 25px;
 }
 .cm-menu-items:after {
     background: #3598db;
@@ -134,11 +136,11 @@ padding: 14px 8px 14px 8px;
     height: 92px;
 }
 .mobile-slide{
-font-size: 15px;
+font-size: 20px;
 margin: 15px 10px;  
 }
 .mobile-slide-one{
-    font-size:15px;
+    font-size:20px;
     }
 .cm-navbar>.cm-flex.space{
 padding: 15px 0px 0px 25px;
@@ -172,4 +174,7 @@ padding: 15px 0px 0px 25px;
     float: left;
     padding-top: 8px;
     padding-right: 10px;
+}
+#cm-menu{
+    background: #3598db;
 }
