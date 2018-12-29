@@ -9,12 +9,10 @@ div.scrollmenu {
 }
 
 div.scrollmenu a {
-    display: inline-grid;
     color: #fff;
     text-align: center;
     font-size: 14px;
     text-decoration: none;
-    padding: 10px 9px 0px 9px;
 }
 
 div.scrollmenu a:hover {
@@ -59,9 +57,6 @@ border-right: none;
     overflow: hidden;
     white-space: nowrap;
 }
-.cm-footer div.scrollmenu a{
-padding: 14px 8px 14px 8px;
-}
 
 .cm-submenu ul{
  background: #6cb6ef;
@@ -76,10 +71,9 @@ padding: 14px 8px 14px 8px;
 }
 .scrollmenu ul li{
     display: inline-block;
+    padding: 10px 10px 0px 10px;
 }
 .cm-footer div.scrollmenu a {
-    padding: 10px 10px 3px 10px;
-    display: inline-grid;
     color: #333;
     font-size: 10px;
     
@@ -87,6 +81,7 @@ padding: 14px 8px 14px 8px;
 .scrollmenu i{
     font-size: 20px;
     line-height: 25px;
+    display: block;
 }
 .cm-menu-items:after {
     background: #3598db;
